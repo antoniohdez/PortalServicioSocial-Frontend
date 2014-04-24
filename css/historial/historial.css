@@ -1,0 +1,15 @@
+.contenedorDato{
+	border: 1px solid #CCC;
+}
+.campoInfo{
+	background: #EEE;
+	display: inline-block;
+	padding: .25em;
+	width: 30%;
+}
+
+.campoDato{
+	display: inline-block;
+	padding: .25em;
+
+}
