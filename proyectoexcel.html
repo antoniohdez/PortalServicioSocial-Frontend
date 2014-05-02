@@ -37,45 +37,26 @@
                     <li class="push-right">
                         <a href="index.html"><i class="icon-signout"></i> Cerrar sesión</a>
                     </li>
+                    <li class="push-right">
+                        <a href="historial.html">Historial</a>
+                    </li>
                 </ul>
             </nav>
         </header>
-        <div id="contenedor" class="ink-grid">
+        <div class="ink-grid">
             <div class="column-group">
-                <div id="contenedorProyectos" class="large-33">
-                    <h4>Generar reporte</h4>
+                <div id="contenedor" class="large-50 push-center">
+                    <h4>Agregar Proyectos</h4>
                     <hr>
-                    <div>
-                        <label>Periodo: </label>
-                        <select>
-                            <option>Todos los periodos</option>
-                            <option>ENE-MAY 2014</option>
-                            <option>AGO-DIC 2013</option>
-                        </select>
-                        <button class="ink-button">Generar</button>
-                    </div>
-                </div>
-                <div id="contenedorProyectos" class="large-33">
-                    <h4>Historial</h4>
-                    <hr>
-                    <div><a class="ink-button" href="historial.html">Hitorial por alumno</a></div>
-                </div>
-                <div id="contenedorProyectos" class="large-33">
-                    <h4>Formularios</h4>
-                    <hr>
-                    <div><a class="ink-button" href="institucion.html">Agregar institución</a></div>
-                    <div><a class="ink-button" href="proyecto.html">Agregar proyecto</a></div>
-                </div>
-                <div id="contenedorProyectos" class="large-33">
-                    <h4>Documentos</h4>
-                    <hr>
-                    <div><a class="ink-button" href="institucionexcel.html">Agregar instituciones desde excel</a></div>
-                    <div><a class="ink-button" href="proyectoexcel.html">Agregar proyecto desde excel</a></div>
-                </div>
-                <div id="contenedorProyectos" class="large-33">
-                    <h4>Avisos</h4>
-                    <hr>
-                    <div><a class="ink-button" href="avisos.html">Administrar avisos</a></div>
+                    <form class="ink-form">
+                        <div class="control-group">
+                            <label>Selecciona un archivo (.csv)</label> 
+                            <div class="control">
+                                <div class="input-file"><input type="file"></div>
+                            </div>
+                        </div>
+                        <input class="ink-button" value="Guadar" type="submit">
+                    </form>
                 </div>
             </div>
         </div>
